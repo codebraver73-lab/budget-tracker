@@ -1,0 +1,142 @@
+body{
+    background-color: #1F3A4A;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#budgetdiv{
+    border-radius: 5%;
+    border:white solid 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #165A72;
+    height:90vh;
+    width:20vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+#my-budget-div{
+    background-color: #9FB3BD;
+    border-radius: 5%;
+    text-align: center;
+    width:22vw;
+    font-size:1.4rem;
+}
+
+#new-entry-div{
+    color:white;
+    border-bottom: 1px solid white;
+    width:22vw;
+    text-align: center;
+    font-size:1.1rem;
+    
+}
+
+#description-div{
+   width:22vw;  
+   height:auto;     
+   font-size: 1.2rem;    
+}
+
+
+input:focus{
+    border:none;
+    border-radius: 50px;
+    height:3vh;
+
+}
+
+
+input{
+    width:22vw;
+    border-radius: 50px;
+    border:none;
+    height:3vh;
+}
+
+
+
+#amount-div{
+    font-size: 1.2rem;
+}
+
+
+#transaction-button{
+    border:none;
+    border-radius: 50px;
+    color:white;
+    background-color:#2979FF;
+    margin-top:3vh;
+    margin-bottom:3vh;
+    width:22vw;
+    height:3vh;
+    text-align: center;
+}
+
+
+#money-info-div{
+    border-radius: 10px;
+    width:22vw;
+    height:12vh;
+    background-color:#6FC0D4 ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2vw;
+}
+
+#inflow-div{
+    color:white;
+    background-color: black;
+    height:8vh;
+    width:auto;
+    
+    
+}
+
+#outflow-div{
+    color:white;
+    background-color: black;
+    height:8vh;
+    width:auto;
+}
+
+#Balance-div{
+    color:white;
+    background-color: black;
+    height:8vh;
+    width:auto;
+
+}
+
+#inflowmoney{
+    color:#00C853;
+    text-align: center;
+    font-size:larger;
+}
+
+#outflow-money{
+    color:#FF3B30;
+    text-align: center;
+    font-size:larger;
+}
+
+#Balance-money{
+  color:#2979FF;
+  text-align: center;
+  font-size:larger;
+}
+
+
+#history-div{
+    color:white;
+    border-bottom: 1px solid white;
+    width:22vw;
+    text-align: center;
+    font-size:1.1rem;
+    
+}
